@@ -45,5 +45,29 @@
 //     echo "access denied";
 // }
 
+// day_3 
+
+// function age_add($age){
+//     if($age<=18){
+//         return "allowed";
+
+//     }else{
+//         return "not allowed";
+//     }
+// }
+
+// $ageed=age_add(18);
+// echo $ageed;
+
+// function colector($number){
+//     if($number % 2 == 0){
+//         echo "even";
+//     }else{
+//         echo "odd";
+//     }
+// }
+// $count= colector(10);
+// echo $count;
+
 
 ?>
