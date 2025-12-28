@@ -92,16 +92,41 @@
 // unset($student);
 
 
-$students = [["name"=>"ahmed","grade"=>90],["name"=>"mohamed","grade"=>75],["name"=>"anas","grade"=>60]];
+// $students = [["name"=>"ahmed","grade"=>90],["name"=>"mohamed","grade"=>75],["name"=>"anas","grade"=>60]];
 
-foreach($students as $student){
-    if($student["grade"] >=85){
-        echo $student["name"] . " : excellent <br>";
-    }elseif($student["grade"] >65){
-        echo $student["name"] . " : good <br>";
-        }else{
-            echo $student["name"] . " : fail <br>";
-        }
-}
+// foreach($students as $student){
+//     if($student["grade"] >=85){
+//         echo $student["name"] . " : excellent <br>";
+//     }elseif($student["grade"] >65){
+//         echo $student["name"] . " : good <br>";
+//         }else{
+//             echo $student["name"] . " : fail <br>";
+//         }
+// }
+
+// day_5
 
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <form action="handel.php" method="POST">
+
+    <input type="text" name="name" placholder="enter your name">
+    <br><br>
+    <input type="text" name="email" placholder="enter your email">
+    <br><br>
+    <input type="number" name="age" placholder="enter your age">
+    <br><br> 
+    <button type="submit">send</button>
+
+    </form>
+</head>
+<body>
+    
+</body>
+</html>
