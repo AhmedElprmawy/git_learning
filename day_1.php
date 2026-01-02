@@ -107,7 +107,7 @@
 // day_5
 
 ?>
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -116,11 +116,11 @@
 
     <form action="handel.php" method="POST">
 
-    <input type="text" name="name" placholder="enter your name">
+    <input type="text" name="name" placeholder="enter your name">
     <br><br>
-    <input type="text" name="email" placholder="enter your email">
+    <input type="text" name="email" placeholder="enter your email">
     <br><br>
-    <input type="number" name="age" placholder="enter your age">
+    <input type="number" name="age" placeholder="enter your age">
     <br><br> 
     <button type="submit">send</button>
 
@@ -129,4 +129,4 @@
 <body>
     
 </body>
-</html>
+</html> -->

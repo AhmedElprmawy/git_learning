@@ -14,24 +14,24 @@
 <?php
 
 
-$name = $_POST['name'];
-$email = $_POST['email'];
-$age = $_POST['age'];
+// $name = $_POST['name'];
+// $email = $_POST['email'];
+// $age = $_POST['age'];
 
-if(empty($name) || empty($email) || empty($age)){
-    echo "all fields are required";
-}elseif($_POST['age'] >= 18){
-        echo "welcome : " . $name ."<br>";
-}elseif($_POST['name'] == "admin"){
-    echo "welcome admin" . "<br>";
-}else{
-    echo "welcome guest" . "<br>";
-}
+// if(empty($name) || empty($email) || empty($age)){
+//     echo "all fields are required";
+// }elseif($_POST['age'] >= 18){
+//         echo "welcome : " . $name ."<br>";
+// }elseif($_POST['name'] == "admin"){
+//     echo "welcome admin" . "<br>";
+// }else{
+//     echo "welcome guest" . "<br>";
+// }
 
 
-echo "your name is : " . htmlspecialchars($name) . "<br>";
-echo "your email is : " . $email ."<br>";
-echo "your age is : " . $age ."<br>";
+// echo "your name is : " . htmlspecialchars($name) . "<br>";
+// echo "your email is : " . $email ."<br>";
+// echo "your age is : " . $age ."<br>";
 
 
 ?>
